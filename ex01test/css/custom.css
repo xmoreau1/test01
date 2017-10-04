@@ -62,24 +62,16 @@ aside {
   padding-top: 8%; }
 
 .artaside {
-  width: 90%;
+  width: 70%;
   border: 1px solid black;
   display: inline-block;
   vertical-align: top; }
 
-.d_actu {
-  width: 9%;
-  height: 81px; }
-
-.i_actu {
-  width: 9%;
+.actu {
+  width: 5%;
   height: 81px;
-  background-image: url("../images/bg_date.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
-  vertical-align: top;
-  position-text: center; }
+  background-color: green;
+  display: inline-block; }
 
 .section2 {
   width: 45%;
