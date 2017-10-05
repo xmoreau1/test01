@@ -73,6 +73,9 @@ aside {
   background-color: green;
   display: inline-block; }
 
+.puce_feuille {
+  border: 1px solid black; }
+
 .section2 {
   width: 45%;
   height: 100%;
@@ -85,6 +88,9 @@ aside {
   width: 80%;
   border: 1px solid black;
   margin-left: 6%; }
+
+.formulaire {
+  width: 40%; }
 
 .pot_newsletter {
   margin-left: 18%; }
