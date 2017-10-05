@@ -1,0 +1,71 @@
+body {
+  display: inline-block; }
+
+.mainpage {
+  width: 1400px;
+  height: 100%;
+  border: 1px solid black;
+  display: inline-block; }
+
+.mainheader {
+  width: 100%;
+  height: 480px;
+  border: 1px solid black;
+  background-color: blue; }
+
+.mainheadersec01 {
+  width: 100%;
+  height: 90px; }
+
+nav {
+  background-color: black;
+  color: white; }
+
+.mainheadersec02 {
+  width: 100%;
+  height: 380pxpx;
+  background-color: silver; }
+
+.content {
+  width: 100%;
+  height: 1100px;
+  border: 1px solid black;
+  background-color: red; }
+
+.headercontent {
+  width: 100%;
+  background-color: black;
+  color: white; }
+
+.contentsec01 {
+  width: 100%;
+  height: 450px;
+  vertical-align: top; }
+
+.contentsec01art01 {
+  width: 271px; }
+
+.contentsec01art02 {
+  width: 271px; }
+
+.contentsec01art03 {
+  width: 271px; }
+
+.contentsec01art04 {
+  width: 271px; }
+
+.contentsec01a {
+  height: 100px;
+  background-color: white; }
+
+.contentsec02 {
+  width: 100%;
+  height: 600px; }
+
+.mainfooter {
+  width: 1400px;
+  height: 10%;
+  border: 1px solid black;
+  background-color: green; }
+
+/*# sourceMappingURL=custom.css.map */
