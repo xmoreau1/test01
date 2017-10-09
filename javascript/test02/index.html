@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test02 javascript</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	var questions =[
+	{
+		ques: 'est-ce que tu aime le javascript ?',
+		ans: 'oui'
+	},
+	{
+		ques: 'le javascript est une évolution du Java ?',
+		ans: 'oui'
+	},
+	{
+		ques: 'le javascriptest un langage d\'objet par prototypage ?',
+		ans: 'oui'
+
+	},
+	{
+		ques: 'Le javascript est souvent utilisé coté client ?',
+		ans: 'oui'
+	},
+	{
+		ques: 'Le javascript peut être utilisé coté client et serveur ?',
+		ans: 'oui'
+	}
+	];
+
+	for(i=0; i<questions.length; i++){
+		if (prompt(questions[i].ques).toLowerCase() === questions[i].ans.toLowerCase()){
+
+			console.log('Bonne réponse pour la question' + questions[i].ques);
+		}else
+		{
+			console.log('Faux. la bone reponseà la question' + question[i].ques + 'était' + questions[i].ans)
+		}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>js test 1</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		var admis = true;
+		var etudiants = [
+		{
+			nom: 'Pierre',
+			moyenne: '15',
+			admis: true
+		},
+
+		{
+			nom: 'Paul',
+			moyenne: '10',
+			admis: true
+		},
+
+		{
+			nom: 'Jacques',
+			moyenne: '8',
+			admis: true
+		},
+
+		{
+			nom: 'Manon',
+			moyenne: '5',
+			admis: true
+		}
+		]
+		
+		console.log('liste etudiants')
+		for (var i = 0; i < etudiants.length; i++) {
+
+			var etudiant = etudiants[i];
+			if (etudiant.moyenne >= 10 && admis) {
+				
+				 console.log(etudiant.nom +'est admis' + 'avec ' + etudiant.moyenne + ' de moyenne')
+				
+			}
+			else
+			{
+				 console.log(etudiant.nom + ' est non admis')
+			}
+		}
+	</script>
+
+</body>
+</html>
